@@ -1,0 +1,89 @@
+body.body-class {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header-class {
+    background-color: #4190e2;
+    color: white;
+    padding: 20px;
+    text-align:center;
+}
+
+.nav-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-class a.active {
+    font-weight: bold;
+}
+
+.title-class {
+    color: #002c5f;
+}
+
+.section-title-class {
+    color: #8d0000;
+}
+
+.text-class {
+    color: #333;
+}
+
+.image-class {
+    border: 5px solid #00499c;
+    width: 100%;
+    height: auto;
+}
+
+.form-class input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.button-class {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #3a7dc2;
+}
+
+.footer-class {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .header-class, .nav-class, .footer-class {
+        padding: 15px;
+    }
+    .title-class, .section-title-class {
+        font-size: 1.5em;
+    }
+    .text-class {
+        font-size: 14px;
+    }
+    .form-class input, .button-class {
+        width: 100%;
+    }
+}
